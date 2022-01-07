@@ -4,10 +4,9 @@
 
 <p align="center">
     <img src="https://img.shields.io/npm/types/@dietime/react-native-date-picker" alt="npm type definitions"/>
-    <img src="https://img.shields.io/bundlephobia/min/@dietime/react-native-date-picker" alt="npm bundle size"/>
 </p>
 
-React Native customizable date picker component for iOS and Android. Designed using ScrollView. Looks identical on all
+React Native customizable date picker component for iOS, Android and Web. Designed using ScrollView. Looks identical on all
 devices.
 
 ## 💻 Example
@@ -18,9 +17,9 @@ devices.
 1. *Add dependencies to the project*
 
     ```bash
-    yarn add @dietime/react-native-date-picker
+    yarn add git+https://github.com/51m0n397/react-native-date-picker.git
     
-    npm install @dietime/react-native-date-picker --save
+    npm install git+https://github.com/51m0n397/react-native-date-picker.git --save
     ```
 
 2. *Install additional dependencies*
@@ -30,11 +29,29 @@ devices.
     
     npm install react-native-linear-gradient --save
     ```
+    2.b. (Optional) *For web support, install additional dependencies*
+
+    ```bash
+    yarn add react-native-web-linear-gradient
+    
+    npm install react-native-web-linear-gradient --save
+    ```
+    *and alias the package in your webpack config*
+    
+    ```json
+    resolve: {
+        alias: {
+            'react-native': 'react-native-web',
+            ...
+            'react-native-linear-gradient': 'react-native-web-linear-gradient',
+        }
+    }
+    ```
 
 3. *Then, import with ...*
 
     ```js
-    import DatePicker from '@dietime/react-native-date-picker';
+    import DatePicker from 'react-native-date-picker';
     ```
 
 
@@ -45,7 +62,7 @@ devices.
     import React, {useState} from "react";
     import {Text, View} from "react-native";
     
-    import DatePicker from "@dietime/react-native-date-picker";
+    import DatePicker from "react-native-date-picker";
     
     export default function App() {
         const [date, setDate] = useState();
