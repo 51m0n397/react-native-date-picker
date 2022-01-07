@@ -3,11 +3,6 @@
 </p>
 
 <p align="center">
-    <a href="https://snack.expo.io/@checkcompany/063372">🎯 Try component at snack.expo.io</a>
-</p>
-
-<p align="center">
-    <img src="https://img.shields.io/badge/Runs%20with%20Expo-000.svg?style=flat&logo=EXPO&labelColor=ffffff&logoColor=000" alt="npm type definitions"/>
     <img src="https://img.shields.io/npm/types/@dietime/react-native-date-picker" alt="npm type definitions"/>
     <img src="https://img.shields.io/bundlephobia/min/@dietime/react-native-date-picker" alt="npm bundle size"/>
 </p>
@@ -31,9 +26,9 @@ devices.
 2. *Install additional dependencies*
 
     ```bash
-    yarn add expo-linear-gradient
+    yarn add react-native-linear-gradient
     
-    npm install expo-linear-gradient --save
+    npm install react-native-linear-gradient --save
     ```
 
 3. *Then, import with ...*
@@ -42,8 +37,6 @@ devices.
     import DatePicker from '@dietime/react-native-date-picker';
     ```
 
-4. *If you are not using Expo*
-   > You should also follow these additional [installation instructions](https://github.com/expo/expo/tree/master/packages/expo-linear-gradient#installation-in-bare-react-native-projects).
 
 ## 👩‍💻 Usage
 

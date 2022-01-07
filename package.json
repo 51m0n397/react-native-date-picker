@@ -1,6 +1,6 @@
 {
   "name": "@dietime/react-native-date-picker",
-  "description": "React Native date picker expo component for iOS, Android and browser. Designed using ScrollView.",
+  "description": "React Native date picker component for iOS, Android and browser. Designed using ScrollView.",
   "version": "1.1.1",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -18,8 +18,7 @@
     "native",
     "datepicker",
     "date",
-    "picker",
-    "expo"
+    "picker"
   ],
   "scripts": {
     "example": "cd example && yarn start",
@@ -34,7 +33,7 @@
   },
   "homepage": "https://github.com/DieTime/react-native-date-picker#readme",
   "peerDependencies": {
-    "expo-linear-gradient": "^8.4.0",
+    "react-native-linear-gradient": "*",
     "react": "*",
     "react-native": "*"
   },
@@ -45,7 +44,7 @@
     "@types/react-native": "~0.63.2",
     "react": "^17.0.1",
     "react-dom": "16.13.1",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
+    "react-native": "^0.63.2",
     "react-native-builder-bob": "^0.17.1",
     "typescript": "^4.1.3"
   },
