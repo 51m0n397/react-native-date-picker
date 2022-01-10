@@ -38,7 +38,7 @@ devices.
     ```
     *and alias the package in your webpack config*
     
-    ```json
+    ```javascript
     resolve: {
         alias: {
             'react-native': 'react-native-web',
